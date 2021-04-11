@@ -24,3 +24,9 @@ To start insert the below text in Bash:
     from nltk import word_tokenize
     from nltk import Text
 
+These three lines import the Natural Language Toolkit (nltk) and import to other functions needed for cleaning.
+
+Next we need to import the text file we wish to clean.
+
+    f = open('rawtext.txt', 'r')
+    raw = f.read()
