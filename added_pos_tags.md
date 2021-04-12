@@ -8,7 +8,8 @@ ADD TEXT
 
 ADD TEXT
     
-     = pd.read_csv('total1.csv')
+    df_debates = pd.read_csv('total1.csv')
+
 ADD TEXT
 
     def NounCount(x):
