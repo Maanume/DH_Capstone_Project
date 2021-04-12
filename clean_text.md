@@ -30,3 +30,41 @@ Next we need to import the text file we wish to clean.
 
     f = open('rawtext.txt', 'r')
     raw = f.read()
+
+ADD TEXT
+    
+    tokens = nltk.word_tokenize(raw)
+    text = nltk.Text(tokens)
+
+ADD TEXT
+    
+    total_tokens = []
+    for t in text:
+        if t.isalpha():
+            t=t.lower()
+            total_tokens.append(t)
+        else:
+            pass
+
+ADD TEXT
+    
+    from nltk.corpus import stopwords
+
+ADD TEXT
+    
+    stopset = set(stopwords.words('english'))
+
+ADD TEXT
+    
+    sw_found = 0 
+    
+ADD TEXT   
+    
+    for t in total_tokens:
+    if not t in stopset:
+        appendFile = open('cleaned_si.txt', 'a')
+        appendFile.write(" "+t)
+        appendFile.close()
+     
+    else:
+        sw_found +=1
