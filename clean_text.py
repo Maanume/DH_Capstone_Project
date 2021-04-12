@@ -23,7 +23,7 @@ sw_found = 0
 
 for t in total_tokens:
     if not t in stopset:
-        appendFile = open('cleaned_si.txt', 'a')
+        appendFile = open('cleaned_text.txt', 'a')
         appendFile.write(" "+t)
         appendFile.close()
     else:
