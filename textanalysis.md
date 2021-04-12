@@ -1,6 +1,6 @@
 # Text Analysis 
 
-Import of libraries
+Import of libraries and functions
     
     import nltk
     from nltk import sent_tokenize, word_tokenize
