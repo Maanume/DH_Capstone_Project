@@ -3,7 +3,7 @@ import nltk
 from nltk import sent_tokenize, word_tokenize, pos_tag
 from collections import Counter
 
-df_debates = pd.read_csv('total1.csv')
+df_debates = pd.read_csv('dataframe.csv')
 
 def NounCount(x):
     nounCount = sum(1 for word, pos in pos_tag(word_tokenize(x)) if pos.startswith('NN'))
@@ -35,4 +35,4 @@ def PPCount(x):
 
 df_debates['pronouns_count'] = df_debates['text'].apply(PPCount)
 
-df_debates.to_csv('total_ta.csv')
+df_debates.to_csv('df_debates.csv')

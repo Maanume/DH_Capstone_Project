@@ -8,7 +8,7 @@ ADD TEXT
 
 ADD TEXT
     
-    df_debates = pd.read_csv('total1.csv')
+    df_debates = pd.read_csv('debates.csv')
 
 ADD TEXT
 
@@ -47,4 +47,4 @@ ADD TEXT
 
 ADD TEXT
 
-    df_debates.to_csv('total_ta.csv')
+    df_debates.to_csv('df_debates.csv')
