@@ -58,7 +58,7 @@ THis is the stopwords found counter.
     
     sw_found = 0 
     
-This is also a for loop. If each word checked is not in the stopwords list then this will append the word to a new text file which I labeled 'cleaned_text.txt.
+This is also a for loop. If each word checked is not in the stopwords list then this will append the word to a new text file which I labeled cleaned_text.txt.
     
     for t in total_tokens:
     if not t in stopset:
