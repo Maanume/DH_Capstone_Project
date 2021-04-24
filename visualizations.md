@@ -1,6 +1,6 @@
 # Visualizations
 
-Explore these visualizations on [Tableau Public] (hhttps://public.tableau.com/profile/emily.maanum#!/vizhome/TextAnalysisofBritishWelfareDebates/Story1)
+Explore these visualizations on [Tableau Public](https://public.tableau.com/profile/emily.maanum#!/vizhome/TextAnalysisofBritishWelfareDebates/Story1)
 
 ### Visualization #1
 <div>
