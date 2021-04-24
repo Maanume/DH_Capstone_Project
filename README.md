@@ -16,4 +16,4 @@ This repository contains:
     * [added_pos_tags.py](./added_pos_tags.py)
 
 3. .md file with a link to the project's visualizations on Tableau Public. This file also contain images of each visual.
-    * [visualizations.md](./visualizations.mds)
+    * [visualizations.md](./visualizations.md)
