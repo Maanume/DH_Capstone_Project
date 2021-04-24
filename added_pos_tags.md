@@ -1,25 +1,26 @@
 # Adding POS Tags to Existing Pandas Dataframe
-ADD TEXT
+Import packages to identify and count parts of speech
 
     import pandas as pd 
     import nltk
     from nltk import sent_tokenize, word_tokenize, pos_tag
     from collections import Counter
 
-ADD TEXT
+Insert and read the dataframe
     
     df_debates = pd.read_csv('dataframe.csv')
 
-ADD TEXT
+Define function for counting nouns
 
     def NounCount(x):
         nounCount = sum(1 for word, pos in pos_tag(word_tokenize(x)) if pos.startswith('NN'))
         return nounCount
 
-ADD TEXT
+Create a new column in dataframe for the the noun counts and apply to database
 
     df_debates['noun_count'] = df_debates['text'].apply(NounCount)
-ADD TEXT
+
+Below defining functions to count verbs, adjectives, adverbs and pronouns. Create new columns for each pos and apply to the dataframe.
 
     def VerbCount(x):
         verbCount = sum(1 for word, pos in pos_tag(word_tokenize(x)) if pos.startswith('VB'))
@@ -45,6 +46,6 @@ ADD TEXT
 
     df_debates['pronouns_count'] = df_debates['text'].apply(PPCount)
 
-ADD TEXT
+Transform and save dataframe into a new csv file
 
     df_debates.to_csv('df_debates.csv')
