@@ -31,12 +31,12 @@ Next we need to import the text file we wish to clean.
     f = open('rawtext.txt', 'r')
     raw = f.read()
 
-ADD TEXT
+This turns the the raw text into a list of tokens. Then we turn this list into a NLTK text.
     
     tokens = nltk.word_tokenize(raw)
     text = nltk.Text(tokens)
 
-ADD TEXT
+Remove punctuation by only keeping tokens that are letters and then normalizing tokens to lowercase. This is a for loop which loops thorugh the entire text. going over every token.
     
     total_tokens = []
     for t in text:
@@ -46,23 +46,23 @@ ADD TEXT
         else:
             pass
 
-ADD TEXT
+Import the stopwords from the nltk.corpus.
     
     from nltk.corpus import stopwords
 
-ADD TEXT
+Create a stopset list, we want the english version.
     
     stopset = set(stopwords.words('english'))
 
-ADD TEXT
+THis is the stopwords found counter.
     
     sw_found = 0 
     
-ADD TEXT   
+This is also a for loop. If each word checked is not in the stopwords list then this will append the word to a new text file which I labeled 'cleaned_text.txt.
     
     for t in total_tokens:
     if not t in stopset:
-        appendFile = open('cleaned_si.txt', 'a')
+        appendFile = open('cleaned_text.txt', 'a')
         appendFile.write(" "+t)
         appendFile.close()
      
