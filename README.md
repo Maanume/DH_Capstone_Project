@@ -6,14 +6,14 @@ This capstone project examines the motivations of British members of parliament 
 This repository contains:
 
 1. .md files that display the python scripts used for this project, along with explanations of what the code does.
-  * clean_text.md explains the process of cleaning amd normalizing text
-  * textanalysis.md covers various analysis tools from NLTK to use on text
-  * added_pos_tags.md shows how to add parts of speech tags to a pandas dataframe and save as a csv file
+    * [clean_text.md](./clean_text.md) explains the process of cleaning amd normalizing text
+    * [textanalysis.md](./textanalysis.md) covers various analysis tools from NLTK to use on text
+    * [added_pos_tags.md](./added_pos_tags.md) shows how to add parts of speech tags to a pandas dataframe and save as a csv file
 
 2. .py files that strictly contain the python script outlined in the .md files for download and reuse.
-  * clean_text.py
-  * textanalysis.md
-  * added_pos_tags.py
+    * [clean_text.py](./clean_text.py)
+    * [textanalysis.py](./textanalysis.py)
+    * [added_pos_tags.py](./added_pos_tags.py)
 
 3. .md file with a link to the project's visualizations on Tableau Public. This file also contain images of each visual.
-  * visualizations.md
+    * [visualizations.md](./visualizations.mds)
