@@ -18,7 +18,7 @@ then
     import nltk
 
 ## Usage
-I import nltk and these two functions because I use them to tokenize my text. I put them at the beginning at the script so that if I need to reference them they are imported first. 
+I imported nltk and these two functions because I used them to tokenize my text. I put them at the beginning of the script for organizational purposes.
    
     # To start insert the below text in Bash
     import nltk
@@ -28,9 +28,9 @@ I import nltk and these two functions because I use them to tokenize my text. I 
     from nltk import word_tokenize
     from nltk import Text
 
-I import my text file with my raw text so that I can clean and noramalize the text in preparation for analysis.
+I imported my text file with my raw text so that I could clean and noramalize the text in preparation for analysis.
 
-    #Next we need to import the text file we wish to clean.
+    # Next we need to import the text file we wish to clean.
     
     f = open('rawtext.txt', 'r')
     raw = f.read()
