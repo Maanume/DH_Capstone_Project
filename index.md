@@ -1,7 +1,6 @@
 # Welcome
 
-### 
-This is my page for my Tableau visualizations from my capstone project for completion of my Digital Humanities masters degree at the CUNY Graduate Center.
+### This is my page for my Tableau visualizations from my capstone project for completion of my Digital Humanities masters degree at the CUNY Graduate Center.
 
 ### [Tableau Visualizations](./visualization.md)
 
