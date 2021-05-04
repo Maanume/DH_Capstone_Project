@@ -15,7 +15,7 @@ This repository contains:
     * [textanalysis.py](./textanalysis.py)
     * [added_pos_tags.py](./added_pos_tags.py)
 
-3. Files to host for my GitHub page.
+3. Files for my GitHub page.
     * [index.md](./index.md) contains the text for my GitHub pages.
     * [viz.html](./viz.html) code for pulling my Tableau visuals from Tableau Public to my GitHub page.
     * [config.yml](./_config.yml) contains theme and description of GitHub page.
