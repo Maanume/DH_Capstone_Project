@@ -1,9 +1,9 @@
 # Welcome
 
-### This is my page for my Tableau visualizations from my capstone project for completion of my Digital Humanities masters degree at the CUNY Graduate Center.
+### This page is for my Tableau visualizations created for my Digital Humanities capstone project.
 
 ### [Tableau Visualizations](./visualization.md)
 
-My visualizations of my results from a text analysis of British welfare debates from 1944.
+These visualizations explore the results from a textual analysis of British parliamentary welfare debates from 1944.
 
 {% include viz.html %}
